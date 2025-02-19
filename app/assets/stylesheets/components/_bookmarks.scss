@@ -1,0 +1,28 @@
+.bookmark-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.bookmark-list li {
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bookmark_list li:hover {
+  background-color: #bdc3c7;
+}
+
+.bookmark-actions {
+  text-decoration: none;
+  color: #e74c3c;
+}
+
+.bookmark-action:hover {
+  color: #c0392B;
+}
